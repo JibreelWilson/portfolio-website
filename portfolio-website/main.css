@@ -1,0 +1,120 @@
+body{
+    font-family: "courier new", courier, Verdana;
+    background-image: url("images/black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: mediumvioletred;
+}
+a:hover { 
+    background-image: url("images/color.jpg");
+}
+.top{
+	position:absolute;
+	top:0;
+	background-color: black;
+	border:26px;
+	width:1360px;
+	height:120px;
+	padding:25px;
+	border-top: 20px;
+}
+.name{
+	font-size:40px;
+}
+header{
+	position: relative;
+	top:0;
+	left:0;
+	float:left;
+	padding:5px;
+	border-top: 30px;
+	width: 1372px;
+	height:120px;
+}
+.menu{
+	position: absolute;
+	top:75px;
+	right:25px;
+	float:right;
+	text-decoration: inline;
+	text-align: right;
+}
+li{
+	display: inline-block;
+	text-decoration: none;
+	text-align: right;
+	list-style-type: none;
+    background:ivory;
+    min-width:60px;
+    padding:20px;
+    margin:10px auto;
+    text-align:center;
+    font-size:17px;	
+    border-radius: 10%;
+}
+a{
+	color: mediumvioletred;
+	font-family: "courier new", courier, Verdana;
+	text-decoration: none;
+	font-weight: bold;
+}
+.intro{
+	font-size: 20px;
+}
+.thesis{
+	font-size:35px;
+}
+article{
+	font-family:verdana;
+	background-color: darkslategrey;
+	font-size:16px;
+	position:absolute;
+	left:10px;
+	bottom: 5px;
+	padding: 60px;
+	border:5px solid black;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 50%;
+	float:left;
+}
+p{
+	margin:2px;
+}
+.gallery{
+	position:absolute;
+	bottom: 10px;
+	width: 1000px;
+	background-color: dimgrey;
+	border:5px solid black;
+}
+.about{
+	font-family:verdana;
+	text-align: center;
+	background-color: darkslategrey;
+	position:absolute;
+	bottom: 90px;
+	left:500px;
+	width: 400px;
+	padding-bottom: 25px;
+	border:5px solid black;
+}
+h1 .about{
+font-size: 25px;
+}
+p .about{
+font-size: 18px;
+}
+.contact{
+	color:#56173b;
+	text-align: center;
+	position:absolute;
+	top: 185px;
+	right:50px;
+	width: 300px;
+	background-color: dimgrey;
+	border:5px solid black;
+}
+
