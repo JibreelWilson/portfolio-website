@@ -7,9 +7,6 @@ body{
     background-position: center;
     color: mediumvioletred;
 }
-a:hover { 
-    background-image: url("images/color.jpg");
-}
 .top{
 	position:absolute;
 	top:0;
@@ -42,6 +39,7 @@ header{
 	text-align: right;
 }
 li{
+	color:mediumvioletred;
 	display: inline-block;
 	text-decoration: none;
 	text-align: right;
@@ -55,7 +53,7 @@ li{
     border-radius: 10%;
 }
 a{
-	color: mediumvioletred;
+	color: #56173b;
 	font-family: "courier new", courier, Verdana;
 	text-decoration: none;
 	font-weight: bold;
@@ -101,20 +99,62 @@ p{
 	padding-bottom: 25px;
 	border:5px solid black;
 }
-h1 .about{
-font-size: 25px;
-}
-p .about{
-font-size: 18px;
+.about{
+	position: absolute;
+	bottom:20px;
+	left:15px;
+	border-radius: 50%;
+	padding:50px;
 }
 .contact{
 	color:#56173b;
 	text-align: center;
+	padding: 25px;
 	position:absolute;
 	top: 185px;
 	right:50px;
 	width: 300px;
 	background-color: dimgrey;
 	border:5px solid black;
+	font-weight: bold;
 }
-
+.srclinks{
+	margin
+}
+button{
+	text-align: center;
+	background:ivory;
+	width:80px;
+	height:40px;
+	font-weight: bold;
+	color:mediumvioletred;
+	border-color: 5px solid mediumvioletred;
+	margin: 5px;
+}
+.gallery{
+	position: absolute;
+	top:187px;
+	width: 1390px;
+	text-align: left;
+	padding: 5px;
+	font-weight: bold;
+}
+.photo{
+	box-sizing: border-box;
+	position: absolute;
+	top:100px;
+	float: left;
+	background-color: darkslategrey;
+	width: 1300px;
+	height: 1950px;
+	padding: 20px;
+	border: 5px solid black;
+}
+.profile{
+	float: left;
+	overflow: hidden;
+	width:120px;
+	height: 120px;
+	border-radius: 50px;
+	border:5px solid mediumvioletred;
+}
