@@ -1,0 +1,82 @@
+body{
+    font-family: "courier new", courier, Verdana;
+    background-image: url("images/black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: mediumvioletred;
+}
+.banner{
+    background-color: black;
+    margin-bottom: 0;
+}
+.active{
+	border-color: mediumvioletred;
+}
+.nav{
+    float: right;
+}
+.nav.nav-pills{
+    float: right;
+	margin:right;
+}
+.nav-pills li.active a{
+    color: #fff;
+    background-color: #82084a;
+}
+a {
+    color: #ff29e1;
+    text-decoration: none;
+}
+.page-header{
+    padding: 25px;
+    margin-top: 0px;
+    margin: 0px 0 0px;
+    border-bottom: 1px solid #840a64;
+	color: mediumvioletred;
+	background-color: black;
+}
+.brand{
+	color: mediumvioletred;
+	text-align: center;
+	font-weight: bold;
+	margin-right:0px;
+    margin-bottom: 15px;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container.info{
+    margin-bottom: 15px;
+    width:600px;
+    }
+.col-md-12 {
+    width: 100%;
+}
+.list-group-item.active{
+    z-index: 2;
+    color: #fff;
+    background-color: #43024a;
+    border-color: #43024a;
+    text-align: left;
+}
+.list-group{
+    margin-bottom: 15px;
+}
+.has-success.control-label{
+    color:#43024a;
+}
+.contact{
+    margin-right: 15px;
+    padding: 25px;
+    width:300px;
+    background-color: black;
+    border:3px solid mediumvioletred;
+}
+.line-spacer{
+    color: mediumvioletred;
+}

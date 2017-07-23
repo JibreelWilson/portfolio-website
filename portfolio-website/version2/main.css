@@ -1,0 +1,72 @@
+body{
+    font-family:courier, Verdana;
+    background-image: url("../images/black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: mediumvioletred;
+}
+.nav{
+	margin:right;
+}
+.page-header{
+    padding: 25px;
+    margin-top: 0px;
+    margin: 0px 0 20px;
+    border-bottom: 1px solid #840a64;
+	color: mediumvioletred;
+	background-color: black;
+}
+.my-header *[role="presentation"] {
+	color: mediumvioletred;
+}
+.brand{
+	color: mediumvioletred;
+    text-align: right;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+.contact{/*contact page icons and imformation about how to get a hold of me*/
+	color:#56173b;
+	text-align: center;
+	padding: 25px;
+	position:absolute;
+	top: 185px;
+	right:50px;
+	width: 300px;
+	background-color: dimgrey;
+	border:5px solid black;
+	font-weight: bold;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: black;
+    border: 1px solid #ddd;
+}
+@media (min-width: 1200px){
+.container {
+    width: 600px;
+}
+@media (min-width: 992px){
+.container {
+    width: 600px;
+}
+@media (min-width: 768px){
+.container {
+    width: 600px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.firstbar{
+	border-color: purple;
+}
